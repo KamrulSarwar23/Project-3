@@ -1,0 +1,208 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/******* HedaerHero Start ******/
+
+.navbar-nav  li:hover{
+    border-bottom: 2px solid white;
+}
+
+.hero-text-wrap{
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.hero-text-wrap .hero-text-head h2{
+    margin-bottom:30px;
+}
+
+
+.hero-text-wrap .hero-text-head h2:after{
+    content: "";
+    width:60px;
+    height:2px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left:10px;
+}
+
+.hero-text-wrap .hero-text-head h3:after{
+    content: "";
+    width:60px;
+    height:2px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left:10px;
+}
+
+.hero-text-wrap .hero-text-head h3{
+    margin-bottom:30px;
+}
+
+.headerhero{
+    min-height:100vh;
+    background: rgb(114, 18, 223);
+}
+
+.hero-img img{
+    width:100%;
+}
+
+/******* HedaerHero End ******/
+
+
+
+
+/******* Service Box Start ******/
+
+.service-text{
+    text-align: center;
+}
+
+.service-text h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.service-text p{
+    margin-bottom: 50px;
+}
+
+.service-box{
+    text-align: center;
+    transition: all 0.6s ease;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 10%;
+
+}
+
+.service-box:hover{
+    background: rgb(114, 18, 223);
+    color:white;
+}
+
+.active-box{
+    background: rgb(114, 18, 223);
+    color: aliceblue;
+}
+
+.service-box img{
+    width:20%;
+    margin-bottom: 30px;
+}
+.service-box h4{
+    margin-bottom: 30px;
+}
+
+
+/******* Service Box End ******/
+
+.features-text{
+    margin-top: 80px;
+}
+.features-text h3:after{
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: rgb(118, 10, 219);
+    display: block;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+
+.features-img img{
+    width:90%;
+}
+
+/******* Watch Box Start ******/
+
+.watch-img img{
+    width: 90%;
+}
+
+.watch-text{
+   margin-top: 100px;
+}
+
+.watch-text h3{
+   margin-bottom: 30px;
+}
+
+.watch-text p{
+   margin-bottom: 30px;
+}
+
+.watch-img{
+    margin-top: 50px;
+}
+
+button.watch-btn{
+    background:rgb(114, 18, 223);
+    color:white;
+}
+
+/******* Watch Box End ******/
+
+
+
+
+/******* Footer Start ******/
+
+.footer{
+    background: rgb(114, 18, 223);
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.footer input{
+    background: transparent;
+    width:60%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.footer button{
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+/******* Footer Start ******/
+
+
+
+@media (max-width:992px) {
+    .hero-img img{
+        width:80%;
+    }
+
+    .navbar-nav  li:hover{
+        border: none;
+    }
+
+}
+
+@media (max-width:768px) {
+   
+  
+}
+
